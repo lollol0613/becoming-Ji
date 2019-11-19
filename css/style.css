@@ -11,7 +11,7 @@
 }
 
 body {
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   font-weight: 400;
   font-size: 1.7em;
   color: rgba(0, 0, 0, 0.7);
@@ -55,7 +55,6 @@ h6 {
   font-weight: 400;
   margin: 0 0 10px 0;
 }
-
 
 ::-webkit-selection {
   color: #fff;
@@ -153,7 +152,7 @@ h6 {
   text-decoration: none;
   position: relative;
   padding: 10px 0;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
   transition: 0.3s;
@@ -243,6 +242,7 @@ h6 {
   color: #f26968;
 }
 
+
 .container-wrap {
   margin: 0 auto;
 }
@@ -259,7 +259,6 @@ h6 {
 @media screen and (max-width: 768px) {
   #colorlib-main {
     width: 100%;
-    padding: 0 1em;
   }
 }
 
@@ -274,8 +273,9 @@ h6 {
 #colorlib-hero .flexslider {
   border: none;
   z-index: 1;
-  margin-bottom: 0;
+  margin: 0;
 }
+
 #colorlib-hero .flexslider .slides {
   position: relative;
   overflow: visible;
@@ -286,9 +286,10 @@ h6 {
   background-position: bottom center;
   min-height: 400px;
   position: relative;
+  width: 100%;
 }
 #colorlib-hero .flexslider .flex-control-nav {
-  bottom: 20px;
+  bottom: 10px;
   z-index: 1000;
   left: 20px;
   float: left;
@@ -296,9 +297,9 @@ h6 {
 }
 @media screen and (max-width: 768px) {
   #colorlib-hero .flexslider .flex-control-nav {
-    right: 20px;
     top: 100px;
   }
+  
 }
 #colorlib-hero .flexslider .flex-control-nav li {
   display: block;
@@ -361,7 +362,7 @@ h6 {
   line-height: 1.5;
   margin-bottom: 30px;
   font-weight: 300;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
 }
 #colorlib-hero .flexslider .slider-text > .slider-text-inner h2 a {
   color: rgba(44, 152, 240, 0.8);
@@ -463,8 +464,7 @@ body.offcanvas .colorlib-nav-toggle {
 .colorlib-about,
 .colorlib-services,
 .colorlib-contact {
-  padding-top: 4em;
-  padding-bottom: 9em;
+  padding: 4em 1em 9em 1em;
   clear: both;
   width: 100%;
   display: block;
@@ -561,7 +561,7 @@ body.offcanvas .colorlib-nav-toggle {
   font-size: 14px;
   letter-spacing: 1px;
   text-transform: uppercase;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   background-color: #f26968;
   color: #fff;
   position: relative;
@@ -609,7 +609,7 @@ body.offcanvas .colorlib-nav-toggle {
   border: 1px solid #e6e6e6 !important;
 }
 
-.panel-body p{
+.panel-body p {
   text-align: justify;
 }
 
@@ -745,7 +745,7 @@ body.offcanvas .colorlib-nav-toggle {
 
 .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label h2 {
   font-size: 1.3em;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   font-weight: 500;
 }
 
@@ -768,17 +768,17 @@ body.offcanvas .colorlib-nav-toggle {
 }
 
 .timeline-label ul li {
-  font-size : 0.9em;
+  font-size: 0.9em;
   margin-bottom: 0.3em;
 }
 .services {
   margin-bottom: 30px;
   padding: 1.5em;
-  -webkit-box-shadow: 0px 0px 20px -8px rgba(0, 0, 0, 0.10);
-  -moz-box-shadow: 0px 0px 20px -8px rgba(0, 0, 0, 0.10);
-  -ms-box-shadow: 0px 0px 20px -8px rgba(0, 0, 0, 0.10);
-  -o-box-shadow: 0px 0px 20px -8px rgba(0, 0, 0, 0.10);
-  box-shadow: 0px 0px 20px -8px rgba(0, 0, 0, 0.10);
+  -webkit-box-shadow: 0px 0px 20px -8px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0px 0px 20px -8px rgba(0, 0, 0, 0.1);
+  -ms-box-shadow: 0px 0px 20px -8px rgba(0, 0, 0, 0.1);
+  -o-box-shadow: 0px 0px 20px -8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 0px 20px -8px rgba(0, 0, 0, 0.1);
   border-bottom: 2px solid #f26968;
   height: 230px;
 }
@@ -791,7 +791,7 @@ body.offcanvas .colorlib-nav-toggle {
   color: #f26968;
 }
 .services h3 {
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   font-size: 16px;
   font-weight: 500;
 }
@@ -912,7 +912,7 @@ body.offcanvas .colorlib-nav-toggle {
 
 .progress-wrap h3 {
   font-size: 16px;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   margin-bottom: 10px;
 }
 
@@ -965,7 +965,7 @@ body.offcanvas .colorlib-nav-toggle {
   background: #d73a31;
 }
 .progress-bar.color-1 span {
-  color:#d73a31;
+  color: #d73a31;
 }
 .progress-bar.color-2 {
   background: #d73a31;
@@ -1068,7 +1068,7 @@ body.offcanvas .colorlib-nav-toggle {
 }
 .colorlib-text p a {
   text-decoration: none;
-  color: rgba(0,0,0,0.7);
+  color: rgba(0, 0, 0, 0.7);
 }
 .colorlib-feature.colorlib-feature-sm .colorlib-icon i {
   color: #f26968;
@@ -1118,7 +1118,7 @@ body.offcanvas .colorlib-nav-toggle {
   font-weight: 500;
   text-transform: uppercase;
   letter-spacing: 1px;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
 }
 .blog-entry .desc h3 a {
   color: #000;
@@ -1172,6 +1172,7 @@ body.offcanvas .colorlib-nav-toggle {
   width: 100%;
   display: block;
   margin-bottom: 30px;
+  cursor: pointer;
 }
 .project .desc {
   position: absolute;
@@ -1200,7 +1201,7 @@ body.offcanvas .colorlib-nav-toggle {
 }
 
 .project .desc h3 {
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   font-size: 16px;
   font-weight: 500;
   text-transform: uppercase;
@@ -1220,8 +1221,6 @@ body.offcanvas .colorlib-nav-toggle {
 }
 .project .desc span {
   display: block;
-  color: rgba(255, 255, 255, 0.7);
-  font-size: 13px;
   -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
   -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
   transition: opacity 0.3s, -webkit-transform 0.3s;
@@ -1231,31 +1230,27 @@ body.offcanvas .colorlib-nav-toggle {
   -webkit-transform: translate3d(0, 15px, 0);
   transform: translate3d(0, 15px, 0);
 }
-.project .desc span a {
-  color: #000;
-}
-.project .desc .con button {
-  background-color: transparent;
-  border: 0;
-  color: white;
-  padding: 0;
-  text-decoration: none;
-}
-.project .desc .con button:focus {
-  outline:none !important;
-}
+
 .modal-body {
   position: relative;
   padding: 20px;
   height: 700px;
   overflow-y: scroll;
-  }
-.work-modal {
-  width:100%;
 }
-.modal-footer button:hover{
+.work-modal {
+  width: 100%;
+}
+.work_title {
+  font-size: 1em;
+  color: #fff;
+}
+.work_category {
+  font-size: 0.8em;
+  color: rgba(255,255,255,0.7);
+}
+.modal-footer button:hover {
   color: white;
-  background-color:#f26968;
+  background-color: #f26968;
 }
 .modal-header {
   margin: 0 auto;
@@ -1348,7 +1343,7 @@ body.offcanvas .colorlib-nav-toggle {
   font-size: 40px;
   display: block;
   color: white;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   width: 100%;
   font-weight: 700;
   margin-bottom: 0.3em;
@@ -1464,11 +1459,10 @@ body.offcanvas .colorlib-nav-toggle {
   border: 1px solid #f26968 !important;
 }
 
-
 .btn {
   margin-right: 4px;
   margin-bottom: 4px;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   font-size: 12px;
   font-weight: 400;
   text-transform: uppercase;
@@ -1780,6 +1774,11 @@ body.offcanvas .colorlib-nav-toggle {
   .colorlib-nav-toggle {
     opacity: 1;
     visibility: visible;
+  }
+  .colorlib-nav-toggle i::before,
+  .colorlib-nav-toggle i::after,
+  .colorlib-nav-toggle i {
+    background: #f26968;
   }
 }
 
