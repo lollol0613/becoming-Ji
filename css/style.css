@@ -462,9 +462,14 @@ body.offcanvas .colorlib-nav-toggle {
 .colorlib-blog,
 .colorlib-work,
 .colorlib-about,
-.colorlib-services,
-.colorlib-contact {
+.colorlib-services {
   padding: 4em 1em 9em 1em;
+  clear: both;
+  width: 100%;
+  display: block;
+}
+.colorlib-contact {
+  padding: 4em 1em 15em 1em;
   clear: both;
   width: 100%;
   display: block;
@@ -519,8 +524,15 @@ body.offcanvas .colorlib-nav-toggle {
 }
 
 .desc h3 {
-  font-size: 1.3em;
+  font-size: 1.4em;
 }
+
+@media screen and (max-width: 768px) {
+  .desc h3 {
+    font-size: 1em;
+  }
+}
+
 .about-img {
   width: 100%;
   height: 600px;
