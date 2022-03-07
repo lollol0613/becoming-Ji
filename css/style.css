@@ -71,6 +71,12 @@ h6 {
   background: #f26968;
 }
 
+#expListBtn {
+  text-decoration: underline;
+  font-weight: bold;
+  cursor: pointer;
+}
+
 #colorlib-page {
   width: 100%;
   overflow: hidden;
@@ -242,7 +248,6 @@ h6 {
   color: #f26968;
 }
 
-
 .container-wrap {
   margin: 0 auto;
 }
@@ -299,7 +304,6 @@ h6 {
   #colorlib-hero .flexslider .flex-control-nav {
     top: 100px;
   }
-  
 }
 #colorlib-hero .flexslider .flex-control-nav li {
   display: block;
@@ -1191,7 +1195,7 @@ body.offcanvas .colorlib-nav-toggle {
 }
 .work_category {
   font-size: 0.8em;
-  color: rgba(255,255,255,0.7);
+  color: rgba(255, 255, 255, 0.7);
 }
 .modal-footer button:hover {
   color: white;
