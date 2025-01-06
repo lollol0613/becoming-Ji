@@ -612,7 +612,7 @@ body.offcanvas .colorlib-nav-toggle {
 }
 
 .panel-heading a.collapsed:after {
-  content: "\e114";
+  /*content: "\e114";*/
 }
 
 .panel-heading a.collapsed {
