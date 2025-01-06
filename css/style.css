@@ -602,7 +602,6 @@ body.offcanvas .colorlib-nav-toggle {
 
 .panel-heading a:after {
   font-family: "icomoon";
-  content: "\e115";
   position: absolute;
   right: 20px;
   font-size: 14px;
