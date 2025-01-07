@@ -757,6 +757,10 @@ body.offcanvas .colorlib-nav-toggle {
   margin-left: -9px;
 }
 
+.timeline-centered .timeline-entry .timeline-entry-inner .timeline-label .work-link {
+  font-size: 0.7em;
+}
+
 .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label p + p {
   margin-top: 15px;
 }
