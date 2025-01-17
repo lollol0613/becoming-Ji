@@ -21,6 +21,7 @@
   right: 0;
   bottom: 0;
   left: 0;
+  width: 100%;
   z-index: $zindex-modal;
   -webkit-overflow-scrolling: touch;
 
@@ -134,8 +135,7 @@
 @media (min-width: $screen-sm-min) {
   // Automatically set modal's width for larger viewports
   .modal-dialog {
-    /*width: $modal-lg;*/
-    width: 80%;
+    width: $modal-lg;
     margin: 30px auto;
   }
   .modal-content {
