@@ -33,7 +33,7 @@
     @include translate(0, -25%);
     @include transition-transform(0.3s ease-out);
   }
-  &.in .modal-dialog { @include translate(0, 0); width:80%; }
+  &.in .modal-dialog { @include translate(0, 0); }
 }
 .modal-open .modal {
   overflow-x: hidden;
@@ -43,7 +43,7 @@
 // Shell div to position the modal with bottom padding
 .modal-dialog {
   position: relative;
-  width: auto;
+  width: 80%;
   margin: 10px;
 }
 
@@ -134,7 +134,8 @@
 @media (min-width: $screen-sm-min) {
   // Automatically set modal's width for larger viewports
   .modal-dialog {
-    width: $modal-lg;
+    /*width: $modal-lg;*/
+    width: 80%;
     margin: 30px auto;
   }
   .modal-content {
